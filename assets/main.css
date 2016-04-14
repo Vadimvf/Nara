@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: none;
+  background: rgb(126, 222, 190);
+}
+
+canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+canvas#nara-foreground {
+  height: 100%;
+  width: 800px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
