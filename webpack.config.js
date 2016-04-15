@@ -1,6 +1,6 @@
 module.exports = {
   context: __dirname,
-  entry: "./lib/nara.js",
+  entry: ["./lib/nara.js"],
   output: {
     path: "./lib",
     publicPath: "/lib/",
