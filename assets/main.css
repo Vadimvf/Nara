@@ -7,6 +7,7 @@ body, h1, h2, h3, ul, li {
   outline: 0;
   border: none;
   line-height: 2;
+  font-family: 'adventor-regular';
 }
 
 body {
@@ -14,7 +15,6 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'adventor-regular';
   color: #b9ebf7;
   padding: 10px 0;
 }
@@ -107,7 +107,7 @@ a:hover {
 .controls {
   width: 300px;
   float:left;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .my-links > li{
@@ -158,4 +158,25 @@ canvas#nara-foreground {
   margin-right: auto;
   left: 0;
   right: 0;
+}
+
+.modal-lost > .modal-content{
+  padding-top: 25px;
+  width: 400px;
+  margin-left: -200px;
+  margin-top: -200px;
+  text-align: center;
+}
+
+.modal-lost > .modal-content > .my-links {
+  padding-top: 35px;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  font-size: 20px;
+}
+
+.final-score {
+  font-size: 80px;
+  padding: 0;
 }
