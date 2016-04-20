@@ -129,7 +129,6 @@ a:hover {
     }
 }
 
-
 @media screen and (min-width: 900px) {
   .too-small {
     display: none;
@@ -186,4 +185,26 @@ canvas#nara-foreground {
 .final-score {
   font-size: 80px;
   padding: 0;
+}
+
+.train:hover {
+  cursor: pointer;
+  color: #dacfa0;
+}
+
+.exit-train {
+  color: #cd82e3;
+  position: absolute;
+  left: 50%;
+  margin-left: -90px;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 5px;
+  display: block;
+  padding: 0 20px;
+  background-color: #dacfa0;
+}
+
+.exit-train:hover {
+  background-color: #e7cb59;
 }
