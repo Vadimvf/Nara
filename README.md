@@ -1,5 +1,6 @@
 # Nara
 ###### Written using the ES6 language specification and babel to transpile into ES5
+###### [Play the game!](http://vadimvf.github.io/Nara/)
 
 ##Screenshots 
 ![screenshot 1](https://raw.githubusercontent.com/Vadimvf/Nara/master/assets/Screen%20Shot%201.png)
